@@ -1,0 +1,41 @@
+html {
+    font-family: Tahoma, serif;
+    font-size: 40px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.box-container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+
+.box {
+    border-left: 10px dotted #D0D0FF;
+    margin: 10px;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+}
+
+.box:hover {
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.box-text {
+    margin: 0 0 0 10px;
+}
+
+#b6 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
