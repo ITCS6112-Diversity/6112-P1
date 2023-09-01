@@ -1,4 +1,45 @@
+html{
+    font-size: 40px;
+    font-family: Tahoma, serif;
+}
+
 .box-container{
-    border: 1px;
-    border-color: black;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+.box{
+    border-left: 10px dotted #D0D0FF;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    background-color: #eeeff2;
+    transition: font-size 0.5s;
+}
+
+.box:hover{
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+    font-size: 90px;
+}
+
+.box-text{
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+#b6{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    animation: juggle 4s infinite;
+    animation-delay: 1s;
+}
+
+@keyframes juggle {
+    0% {bottom:0; top: 77%;}
+    50% {bottom:100%; top:0;}
+    100% {bottom:0; top:77%;}
 }
