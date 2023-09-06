@@ -41,7 +41,7 @@ body {
     align-items: center;
     flex-wrap: nowrap;
     position: relative;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #b6 {
